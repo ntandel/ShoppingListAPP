@@ -83,6 +83,9 @@
                                                 <state key="normal" title="Cancel">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="onCancelButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VjH-aT-nvJ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -243,10 +246,10 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kxs-Rk-Ko1">
                                                 <rect key="frame" x="30" y="0.0" width="50" height="30"/>
                                                 <subviews>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2T1-GX-SAj">
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2T1-GX-SAj">
                                                         <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
                                                         <nil key="textColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -299,7 +302,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="onMinusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EGd-nQ-Xbd"/>
+                                                            <action selector="onMinus1buttonpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="da3-Ho-eFQ"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -315,10 +318,10 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XbR-ia-Urn">
                                                 <rect key="frame" x="30" y="0.0" width="50" height="30"/>
                                                 <subviews>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qWc-be-Nj7">
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qWc-be-Nj7">
                                                         <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
                                                         <nil key="textColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -342,7 +345,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="onPlusbuttonpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lSO-uJ-Zsh"/>
+                                                            <action selector="onPlus1buttonpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9u3-PU-L1q"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -371,7 +374,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="onMinusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RMc-6X-88J"/>
+                                                            <action selector="onMinus2buttonpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z71-F7-lJz"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -387,10 +390,10 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r9W-Jz-gvE">
                                                 <rect key="frame" x="30" y="0.0" width="50" height="30"/>
                                                 <subviews>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gCm-Km-7IQ">
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gCm-Km-7IQ">
                                                         <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
                                                         <nil key="textColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -414,7 +417,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="onPlusbuttonpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gW7-Eb-a46"/>
+                                                            <action selector="onPlus2buttonpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L8J-Du-evn"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -443,7 +446,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="onMinusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZJh-lt-02n"/>
+                                                            <action selector="onMinus3buttonpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x2O-4m-fmB"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -459,10 +462,10 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ka6-cO-y0M">
                                                 <rect key="frame" x="30" y="0.0" width="50" height="30"/>
                                                 <subviews>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lVQ-2z-uAL">
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lVQ-2z-uAL">
                                                         <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
                                                         <nil key="textColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -486,7 +489,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="onPlusbuttonpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mKU-ZT-GLe"/>
+                                                            <action selector="onPlus3buttonpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UdU-O0-BFF"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -515,7 +518,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="onMinusButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5NL-fj-iPl"/>
+                                                            <action selector="onMinus4buttonpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eDO-jY-Nme"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -531,10 +534,10 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I69-Lv-5IP">
                                                 <rect key="frame" x="30" y="0.0" width="50" height="30"/>
                                                 <subviews>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q44-xh-srC">
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q44-xh-srC">
                                                         <rect key="frame" x="0.0" y="0.0" width="50" height="30"/>
                                                         <nil key="textColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -558,7 +561,7 @@
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="onPlusbuttonpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vn1-mQ-eWj"/>
+                                                            <action selector="onPlus4buttonpressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="36z-iW-C67"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -582,6 +585,10 @@
                     </view>
                     <connections>
                         <outlet property="TextNumber" destination="2T1-GX-SAj" id="OSs-5z-i22"/>
+                        <outlet property="TextNumber1" destination="qWc-be-Nj7" id="IoQ-pt-EwP"/>
+                        <outlet property="TextNumber2" destination="gCm-Km-7IQ" id="Fdy-U1-eDX"/>
+                        <outlet property="TextNumber3" destination="lVQ-2z-uAL" id="uMR-X4-P7y"/>
+                        <outlet property="TextNumber4" destination="q44-xh-srC" id="ekc-vx-ReK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

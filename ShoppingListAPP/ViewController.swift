@@ -1,9 +1,11 @@
-//
+
 //  ViewController.swift
 //  ShoppingListAPP
 //
 //  Created by Nisha Tandel on 2019-10-16.
 //  Copyright © 2019 Nisha Tandel. All rights reserved.
+
+
 // Name - Nisha Tandel
 // StudentId: 301094688
 // date - 16-10-2019
@@ -20,6 +22,14 @@ class ViewController: UIViewController {
     var numberOnScreen4 = 0
 
     // outlet methods to show the numbers in the text box when plus and minus are pressed.
+    
+    @IBOutlet weak var InsertedText: UITextField!
+    @IBOutlet weak var InsertedText1: UITextField!
+    @IBOutlet weak var InsertedText2: UITextField!
+    @IBOutlet weak var InsertedText3: UITextField!
+    @IBOutlet weak var InsertedText4: UITextField!
+    @IBOutlet weak var InsertedText5: UITextField!
+    
     
     @IBOutlet weak var TextNumber: UITextField!
     
@@ -118,8 +128,19 @@ class ViewController: UIViewController {
     // this function is executed when the cancel button is pressed
     @IBAction func onCancelButtonPressed(_ sender: Any)
     {
-        
+        InsertedText.text = ""
+        InsertedText1.text = ""
+        InsertedText2.text = ""
+        InsertedText3.text = ""
+        InsertedText4.text = ""
+        InsertedText5.text = ""
+        TextNumber.text = "0"
+        TextNumber1.text = "0"
+        TextNumber2.text = "0"
+        TextNumber3.text = "0"
+        TextNumber4.text = "0"
         
     }
+    
 }
 

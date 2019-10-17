@@ -12,13 +12,15 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
+    // variable declared
     var numberOnScreen = 0
     var numberOnScreen1 = 0
     var numberOnScreen2 = 0
     var numberOnScreen3 = 0
     var numberOnScreen4 = 0
 
+    // outlet methods to show the numbers in the text box when plus and minus are pressed.
+    
     @IBOutlet weak var TextNumber: UITextField!
     
     @IBOutlet weak var TextNumber1: UITextField!
@@ -32,16 +34,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    
+        // initial text in the lables
         
         TextNumber.text = "0"
         TextNumber1.text = "0"
         TextNumber2.text = "0"
         TextNumber3.text = "0"
         TextNumber4.text = "0"
-
        
     }
 
+    // this functions are executed when the plus and minus sign is pressed
     @IBAction func onPlusbuttonpressed(_ sender: Any)
     {
         TextNumber.text=String(numberOnScreen+1)
@@ -111,6 +115,7 @@ class ViewController: UIViewController {
         numberOnScreen4 = Int(Double(TextNumber4.text!)!)
     }
     
+    // this function is executed when the cancel button is pressed
     @IBAction func onCancelButtonPressed(_ sender: Any)
     {
         
